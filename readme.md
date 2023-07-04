@@ -24,7 +24,7 @@ Then start server
 | **/books**       | GET    | *Return all books*           |
 | **/tournament**  | POST   | *Create a new tournament*    |
 | **/tournaments** | GET    | *Return all tournaments*     |
----
+
 <br>
 
 ### **/book**
@@ -38,7 +38,7 @@ Body structure:
 | **train_kind** | string        | *kind of train*   |
 | **coach**      | string        | *trainer's name*  |
 | **date**       | datetime      | *booking date*    |
----
+
 <br>
 
 ### **/tournament**
@@ -52,4 +52,3 @@ Body structure:
 | **team_2**     | string        | *name of team 2*         |
 | **players**    | string        | *players names*          |
 | **date**       | datetime      | *tournament date*        |
----
